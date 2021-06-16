@@ -1,4 +1,3 @@
-var a= "Pull up a chair"
-document.getElementById("header2").innerHTML= a
-console.log(a)
+var document= "Pull up a chair"
+console.log(document)
 
