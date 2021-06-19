@@ -7,16 +7,16 @@ document.body.appendChild(pTag);
 pTag.textContent= "Welcome to my JS site";
 
 
-var ol= document.createElement("List");
+var ol= document.createElement("ol");
 ol.id = "myList"
 ol.class="style"
 document.body.appendChild(ol);
 
 
 function createItem(name) {
-    let li = document.createElement('li');
-    li.textContent = name;
-    return li;
+    let ol = document.createElement('ol');
+    ol.textContent = name;
+    return ol;
 }
 
 const items = document.querySelector('#myList');
