@@ -17,6 +17,14 @@ const items = document.getElementById("myList");
 var item1= document.createElement("li")
 item1.textContent= "Item 1";
 items.appendChild(item1)
-items.appendChild(createItem('Item 2'));
-items.appendChild(createItem('Item 3'));
+
+var item2= document.createElement("li")
+item2.textContent= "Item 2";
+items.appendChild(item2)
+
+
+var item3= document.createElement("li")
+item3.textContent= "Item 1";
+items.appendChild(item3)
+
 
