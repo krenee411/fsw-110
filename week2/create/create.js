@@ -8,20 +8,15 @@ pTag.textContent= "Welcome to my JS site";
 
 
 var ol= document.createElement("ol");
-ol.id = "myList"
-ol.class="style"
+ol.setAttribute("id", "myList")
+
 document.body.appendChild(ol);
 
 
-function createItem(name) {
-    let ol = document.createElement('ol');
-    ol.textContent = name;
-    return ol;
-}
-
-const items = document.querySelector('#myList');
-
-items.appendChild(createItem('Item 1'));
+const items = document.getElementById("myList");
+var item1= document.createElement("li")
+item1.textContent= "Item 1";
+items.appendChild(item1)
 items.appendChild(createItem('Item 2'));
 items.appendChild(createItem('Item 3'));
 

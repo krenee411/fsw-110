@@ -27,7 +27,7 @@ var pTag = document.createElement('P');
 pTag.textContent= "P Tag";
 document.body.appendChild(pTag);
 
-var ol= document.createElement("List");
+var ol= document.createElement("li");
 ol.id = "myList"
 ol.class="style"
 document.body.appendChild(ol);
