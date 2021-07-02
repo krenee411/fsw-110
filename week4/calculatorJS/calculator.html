@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    
+    <div id= "div0"> 
+        <h1>Addition</h1>
+        <table>
+            <tr>
+                <td>First Number:
+                    <input type="number" id="aNum1">
+                </td>
+            </tr>
+            <tr>
+                <td>Second Number:
+                    <input type="number" id="aNum2">
+                </td>
+            </tr>
+            <tr>
+                <td id="a1">Answer:</td>
+            </tr>
+            <tr>
+                <td>
+             <input type="button" value="Enter"
+             onclick="add()"/>
+         </td>
+            </tr>
+         </table>
+     </div>
+    <div id= "div1">
+        <h1>Subtraction</h1>  
+        <table> 
+            <tr>
+                <td>First Number:
+                    <input type="number" value="" id="sNum1">
+                </td>
+            </tr>
+            <tr>
+                <td id= "td2">Second Number:
+                    <input type="number" value="" id="sNum2">
+                </td>
+            </tr> 
+            <tr>
+                <td id= "a2">Answer:</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="Subtract" id="answer2"
+                    onclick="sub()"/>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+    <div id= "div2">
+        <h1>Multiplication</h1>
+        <table> 
+                <tr>
+                    <td>First Number:
+                        <input type="number" id="mNum1">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Second Number:
+                        <input type="number" id="mNum2">
+                    </td>
+                </tr> 
+                <tr>
+                    <td id= "a3">Answer:</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="Multiply"
+                        onclick="mul()"/>
+                    </td>
+                </tr>
+        </table>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>

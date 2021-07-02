@@ -1,0 +1,23 @@
+#div0{
+    background-color: indigo;
+    
+}
+#div0> h1{
+    color: white;
+}
+
+#div1{
+    background-color: rebeccapurple;
+}
+
+#div1> h1{
+    color: white;
+}
+
+#div2{
+    background-color: purple;
+}
+
+#div2> h1{
+    color: white;
+}

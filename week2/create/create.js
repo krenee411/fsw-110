@@ -14,6 +14,7 @@ document.body.appendChild(ol);
 
 
 const items = document.getElementById("myList");
+
 var item1= document.createElement("li")
 item1.textContent= "Item 1";
 items.appendChild(item1)
