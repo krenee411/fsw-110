@@ -13,7 +13,8 @@ function sub(){
 
     result= parseInt(a) - parseInt(b);
 
-    document.getElementById("a2").textContent= "Answer:" +  result; 
+    document.getElementById("a2").textContent= "Answer:" +  result;
+ 
 }
 
 
