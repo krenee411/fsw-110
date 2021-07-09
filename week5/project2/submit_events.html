@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="submit_events.css">
+</head>
+<body>
+    <h1 id= "h1">Kelci's Odds and Ends</h1>
+    <nav id = "nav">
+        <a href="#">Home| </a>
+        <a href="#">Shop| </a>
+        <a href="#">Contact Me</a>
+    </nav>
+    <form name="details" >
+        <div class="div">First Name:
+            <input type="text" placeholder="First Name" id="fnameBox"> 
+        </div>
+        <div class="div">Last Name:
+            <input type="text" placeholder= "Last Name" id="lnameBox">
+        </div>
+        <div class="div">Age:
+            <input type="number" placeholder="Age" id="ageBox">
+        </div>
+        <div class="div">Are you a new costomer?
+            <input type="radio" id="yes" name="question" value="yes">
+             <label for="yes">Yes</label>
+            
+            <input type="radio" id="no" name="question" value="no">
+             <label for="no">No</label>
+        </div>
+        <div class="div">
+            <label for="clothes">What kind of clothing are you looking for?</label>
+
+            <select name="clothes" id="clothes">
+                <option value="none"></option>
+                <option value="boy">Baby Boy Clothes</option>
+                <option value="girl">Baby Girl Clothes</option>
+                <option value="costume">Costumes</option>
+                <option value="dog">Dog Bandanas</option>
+            </select>
+        </div>
+        <div class="div">
+            <p>What types of Fabric are you looking for?</p>
+            <input type="checkbox" id="fabric" name="cotton">
+                <label for="fabric">Cotten</label><br>
+                    <input type="checkbox" id="fabric" name="bullet">
+                <label for="fabric">Bullet</label><br>
+                    <input type="checkbox" id="fabric" name="lace">
+                <label for="fabric">Lace</label><br>
+                    <input type="checkbox" id="fabric" name="polyester">
+                <label for="fabric">Polyester</label><br>
+                    <input type="checkbox" id="fabric" name="satin">
+                <label for="fabric">Satin</label><br>
+                
+                
+        </div>
+           <button onclick="info();">Submit</button>
+
+           <script src="submit_events.js"></script>
+    </form>
+        
+   
+
+</body>
+</html>
