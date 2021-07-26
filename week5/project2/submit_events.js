@@ -4,10 +4,14 @@
     var a = document.getElementById("fnameBox").value;
     var b = document.getElementById("lnameBox").value;
     var c = document.getElementById("ageBox").value;
-    var d = document.getElementById("yes").value;
     var e = document.getElementById("clothes").value;
     var f = document.getElementById("fabric").value;
-
+    var d = document.getElementsByTagName("question").value;
+    if(value == "yes"){
+        return "yes"
+    }  else{
+        return "no"
+    }
 
 
     
